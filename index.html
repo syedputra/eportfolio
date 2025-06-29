@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syed Putera | Strategic Communication Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <div id="page-loader"><div class="loader-spinner"></div></div>
+  <canvas id="particle-bg"></canvas>
+  <div id="spotlight-overlay"></div>
+  <section class="hero-header" data-anim="fade-up">
+    <div class="hero-content">
+      <span class="hero-name">Syed Putera</span>
+      <span class="hero-tagline">Strategic Communication Student, UNIMAS</span>
+      <span class="tagline" id="typed-tagline"></span>
+    </div>
+  </section>
+  <header class="site-header sticky-nav">
+    <div class="header-bg"></div>
+    <div class="header-overlay"></div>
+    <div class="container">
+      <nav class="navbar">
+        <div class="nav-left">
+          <!-- Name and tagline moved to hero-header above -->
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#philosophy">Philosophy</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#reflections">Reflections</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#documents">Documents</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" aria-label="Toggle light/dark mode"><span id="theme-icon">🌙</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <button id="back-to-top" title="Back to Top">↑</button>
+
+  <main>
+    <section id="career-goals" class="section">
+      <div class="container">
+        <h2>Career Goals</h2>
+        <p>My aspiration is to become a leading professional in media and strategic communication, leveraging creative storytelling and digital innovation to build meaningful connections between organizations and their audiences. I aim to drive impactful campaigns, foster brand growth, and contribute to the evolving landscape of communication in Malaysia and beyond.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section rounded-section" data-anim="fade-in">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-profile-img-wrapper">
+          <img src="images/profile.png" alt="Syed Putera" class="about-profile-img">
+        </div>
+        <p>With three years of immersive experience as a Strategic Communication student at UNIMAS, I have honed my creative and technical skills through a wide range of design projects and campus activities. My expertise spans across industry-standard tools such as <strong>Adobe Photoshop</strong>, <strong>Illustrator</strong>, <strong>Lightroom</strong>, <strong>Canva</strong>, <strong>CapCut</strong>, and <strong>Alight Motion</strong>. I have contributed to the visual identity and promotional materials for major university events, including the <strong>MLBB Championship</strong>, <strong>MAP 2024</strong>, and <strong>KESUMAS</strong>. My journey at UNIMAS has empowered me to collaborate with diverse teams, manage real-world design briefs, and deliver impactful visuals that resonate with audiences.</p>
+      </div>
+    </section>
+
+    <section id="philosophy" class="section rounded-section" data-anim="fade-in">
+      <div class="container">
+        <h2>Philosophy</h2>
+        <p>I believe that strategic communication is more than just creating attractive visuals—it's about forging emotional connections, ensuring clarity, and making a lasting impact. My approach is rooted in understanding the audience and crafting messages that are both meaningful and memorable. Through my coursework at UNIMAS, I have developed a design mindset that values empathy, storytelling, and purposeful creativity. This journey has empowered me to think critically, adapt to new challenges, and use design as a tool for positive change.</p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section rounded-section" data-anim="fade-in">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="gallery" data-anim-stagger>
+          <div class="gallery-item" data-title="VICONVEYER VS IMU FC" data-tools="Photoshop, Illustrator" data-description="Football match poster design for VICONVEYER vs IMU FC." data-img="images/viconveyer.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/viconveyer.png" alt="VICONVEYER VS IMU FC Poster" loading="lazy">
+            <p class="caption">VICONVEYER VS IMU FC Poster</p>
+          </div>
+          <div class="gallery-item" data-title="MLBB UNIMAS" data-tools="Photoshop, Illustrator" data-description="MLBB UNIMAS registration closed announcement poster." data-img="images/mlbb.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/mlbb.png" alt="MLBB UNIMAS Poster" loading="lazy">
+            <p class="caption">MLBB UNIMAS Poster</p>
+          </div>
+          <div class="gallery-item" data-title="Inisiatif Bakti" data-tools="Photoshop, Illustrator" data-description="Inisiatif Bakti event poster for UNIMAS." data-img="images/inisiatif.bakti.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/inisiatif.bakti.png" alt="Inisiatif Bakti Poster" loading="lazy">
+            <p class="caption">Inisiatif Bakti Poster</p>
+          </div>
+          <div class="gallery-item" data-title="Gawai X Galau Concert Poster" data-tools="Photoshop, Illustrator" data-description="Concert poster for Gawai X Galau at Karnival Citra Borneo 2024, blending traditional and modern styles." data-img="images/gawai.x.galau.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/gawai.x.galau.png" alt="Gawai X Galau Concert Poster" loading="lazy">
+            <p class="caption">Gawai X Galau Concert Poster</p>
+          </div>
+          <div class="gallery-item" data-title="AJK KESUMAS" data-tools="Photoshop" data-description="AJK KESUMAS event moment." data-img="images/ajk.kesumas.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/ajk.kesumas.png" alt="AJK KESUMAS" loading="lazy">
+            <p class="caption">AJK KESUMAS</p>
+          </div>
+          <div class="gallery-item" data-title="Chinese New Year" data-tools="Photoshop" data-description="Chinese New Year celebration." data-img="images/chinese.new.year.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/chinese.new.year.png" alt="Chinese New Year" loading="lazy">
+            <p class="caption">Chinese New Year</p>
+          </div>
+          <div class="gallery-item" data-title="Countdown" data-tools="Photoshop" data-description="Countdown event highlight." data-img="images/countdown.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/countdown.png" alt="Countdown" loading="lazy">
+            <p class="caption">Countdown</p>
+          </div>
+          <div class="gallery-item" data-title="Edutour MPP" data-tools="Photoshop" data-description="Edutour MPP educational tour." data-img="images/edutour.mpp.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/edutour.mpp.png" alt="Edutour MPP" loading="lazy">
+            <p class="caption">Edutour MPP</p>
+          </div>
+          <div class="gallery-item" data-title="KESUMAS Backstage" data-tools="Photoshop" data-description="Behind the scenes at KESUMAS." data-img="images/kesumas.back.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/kesumas.back.png" alt="KESUMAS Backstage" loading="lazy">
+            <p class="caption">KESUMAS Backstage</p>
+          </div>
+          <div class="gallery-item" data-title="Santun Kasih" data-tools="Photoshop" data-description="Santun Kasih community event." data-img="images/santun.kasih.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/santun.kasih.png" alt="Santun Kasih" loading="lazy">
+            <p class="caption">Santun Kasih</p>
+          </div>
+          <div class="gallery-item" data-title="Semarak Maghrib" data-tools="Photoshop" data-description="Semarak Maghrib spiritual gathering." data-img="images/semarak.maghrib.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/semarak.maghrib.png" alt="Semarak Maghrib" loading="lazy">
+            <p class="caption">Semarak Maghrib</p>
+          </div>
+          <div class="gallery-item" data-title="Ziarah Kasih" data-tools="Photoshop" data-description="Ziarah Kasih event." data-img="images/ziarah.kasih.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/ziarah.kasih.png" alt="Ziarah Kasih" loading="lazy">
+            <p class="caption">Ziarah Kasih</p>
+          </div>
+          <div class="gallery-item" data-title="Raya 5" data-tools="Photoshop" data-description="Raya 5 celebration." data-img="images/raya 5.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/raya 5.png" alt="Raya 5" loading="lazy">
+            <p class="caption">Raya 5</p>
+          </div>
+          <div class="gallery-item" data-title="SELAMAT" data-tools="Photoshop" data-description="SELAMAT event." data-img="images/SELAMAT.png" tabindex="0" data-anim="zoom-in">
+            <img src="images/SELAMAT.png" alt="SELAMAT" loading="lazy">
+            <p class="caption">SELAMAT</p>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for gallery -->
+      <div id="gallery-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <img id="modal-img" src="" alt="Project Image">
+          <h3 id="modal-title"></h3>
+          <p id="modal-tools"></p>
+          <p id="modal-desc"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="reflections" class="section rounded-section" data-anim="fade-in">
+      <div class="container">
+        <h2>Assignment Reflections</h2>
+        <div class="reflection-cards" data-anim-stagger>
+          <div class="reflection-card" data-anim="slide-in-left">
+            <div class="reflection-content">
+              <h3>Poster Design</h3>
+              <p>In designing posters, I focus on visual hierarchy, color harmony, and clear messaging to engage the audience effectively.</p>
+            </div>
+          </div>
+          <div class="reflection-card" data-anim="slide-in-left">
+            <div class="reflection-content">
+              <h3>Logo Design</h3>
+              <p>Logo creation taught me the importance of scalability, visual balance, and building a strong brand identity that stands out across different platforms and sizes.</p>
+            </div>
+          </div>
+          <div class="reflection-card" data-anim="slide-in-left">
+            <div class="reflection-content">
+              <h3>Brochure/Infographics</h3>
+              <p>Designing brochures and infographics challenged me to simplify dense information, making it visually digestible and engaging for diverse audiences.</p>
+            </div>
+          </div>
+          <div class="reflection-card" data-anim="slide-in-left">
+            <div class="reflection-content">
+              <h3>Newsletter/Slides</h3>
+              <p>When working on newsletters and slides, I learned to balance a formal, professional tone with compelling visuals to maintain reader interest and clarity.</p>
+            </div>
+          </div>
+          <div class="reflection-card" data-anim="slide-in-left">
+            <div class="reflection-content">
+              <h3>Website Design</h3>
+              <p>My approach to website design centers on careful layout planning, consistent branding, and ensuring a responsive, user-friendly experience for all devices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="activities" class="section">
+      <div class="container">
+        <h2>Activities &amp; Campus Involvement</h2>
+        <h3 class="activity-year">2022/2023</h3>
+        <div class="activities-flip-grid">
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Graphic Design Unit<br><span class="activity-org">Media Kolej Cempaka Revolution (Mekar) (2022/2023)</span></div><div class="flip-card-back">Designed visual materials and supported branding for college campaigns and student activities.</div></div></div>
+        </div>
+
+        <h3 class="activity-year">2023/2024</h3>
+        <div class="activities-flip-grid">
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Head of Media Unit<br><span class="activity-org">Faculty of Education, Language & Communication Student Council (2023/2024)</span></div><div class="flip-card-back">Led the media team, managed event coverage, and coordinated communication strategies for faculty events.</div></div></div>
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Head of Graphic Designer<br><span class="activity-org">Media Kolej Cempaka Revolution (Mekar) (2023/2024)</span></div><div class="flip-card-back">Led the graphic design team, developed creative concepts, and ensured cohesive visual identity for events.</div></div></div>
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Secretary (Media)<br><span class="activity-org">Majlis Perwakilan Pelajar UNIMAS (2023/2024)</span></div><div class="flip-card-back">Managed media documentation and communication for the student council.</div></div></div>
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Unit Media & Informasi<br><span class="activity-org">Minggu Aluan Pelajar UNIMAS (2023, 2024)</span></div><div class="flip-card-back">Produced event visuals and managed information dissemination for orientation week.</div></div></div>
+        </div>
+
+        <h3 class="activity-year">2024</h3>
+        <div class="activities-flip-grid">
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Media & Publication Committee (Designer)<br><span class="activity-org">UNIMAS MLBB Championship Season 1 (2024)</span></div><div class="flip-card-back">Created promotional graphics and managed digital content for the championship.</div></div></div>
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Head Media Executive (Student)<br><span class="activity-org">Debat Diraja Antara IPT (UNIMAS) (2024)</span></div><div class="flip-card-back">Oversaw media coverage, coordinated publicity, and supported event communication.</div></div></div>
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Media Unit<br><span class="activity-org">Kejohanan Sukan Mahasiswa Unimas (KESUMAS) (2024)</span></div><div class="flip-card-back">Designed event visuals and contributed to media coverage for the university sports championship.</div></div></div>
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Head Designer<br><span class="activity-org">Majlis Apresiasi Gemilang Mahasiswa Unimas (MEGAH) (2024)</span></div><div class="flip-card-back">Led the design team and created branding for the university appreciation event.</div></div></div>
+        </div>
+
+        <h3 class="activity-year">2024/2025</h3>
+        <div class="activities-flip-grid">
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Head Designer<br><span class="activity-org">Lensa Kreatif Kolej Cempaka (2024/2025)</span></div><div class="flip-card-back">Directed creative projects and managed the design team for the college's creative lens initiative.</div></div></div>
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Head of Media<br><span class="activity-org">JK JPKC Kolej Cempaka (2024/2025)</span></div><div class="flip-card-back">Managed media operations and coordinated publicity for the college committee selection.</div></div></div>
+        </div>
+
+        <h3 class="activity-year">2025</h3>
+        <div class="activities-flip-grid">
+          <div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front">Head Designer<br><span class="activity-org">UNIMAS Inisiatif Bakti (2025)</span></div><div class="flip-card-back">Led the design and branding for a major university community initiative.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section rounded-section">
+      <div class="container">
+        <h2>Professional Experience</h2>
+        <ul class="experience-list">
+          <li><strong>Head of Media Unit</strong> – Faculty of Education, Language & Communication Council (2023/2024)<br><span class="exp-desc">Led a team in planning and executing media strategies, overseeing content creation, and managing communication for faculty events.</span></li>
+          <li><strong>Graphic Design Unit</strong> – Kolej Cempaka Revolution (2022/2023)<br><span class="exp-desc">Produced visual materials for college campaigns, collaborated with student leaders, and supported event branding initiatives.</span></li>
+          <li><strong>Head Designer</strong> – MEGAH, Lensa Kreatif, UNIMAS Inisiatif Bakti<br><span class="exp-desc">Directed design concepts, coordinated creative teams, and ensured cohesive visual identity across multiple projects.</span></li>
+          <li><strong>Head Designer</strong> – UNIMAS Inisiatif Bakti 2024<br><span class="exp-desc">Led the design for a Malaysian Book of Records-breaking programme, creating national-level branding and media that captured the spirit and scale of the event.</span></li>
+          <li><strong>Designer</strong> – Karnival Citra Borneo 2024<br><span class="exp-desc">Designed the concert poster for Gawai X Galau, blending traditional Borneo motifs with modern visual styles to create a striking and memorable event identity.</span></li>
+          <li><strong>Media Executive</strong> – Debat Diraja IPT 2024<br><span class="exp-desc">Managed event publicity, crafted digital content, and facilitated communication between organizing committees and participants.</span></li>
+          <li><strong>Designer</strong> – MLBB Championship, MAP, KESUMAS<br><span class="exp-desc">Designed promotional assets, event visuals, and social media graphics for high-profile university events.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section rounded-section" data-anim="fade-in">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid" data-anim-stagger>
+          <div class="skill-card"><span class="skill-icon black-icon"><i class="fa-brands fa-adobe"></i></span>Adobe Illustrator</div>
+          <div class="skill-card"><span class="skill-icon black-icon"><i class="fa-brands fa-adobe"></i></span>Adobe Photoshop</div>
+          <div class="skill-card"><span class="skill-icon black-icon"><i class="fa-solid fa-camera"></i></span>DSLR Photography</div>
+          <div class="skill-card"><span class="skill-icon black-icon"><i class="fa-solid fa-share-nodes"></i></span>Social Media Strategy</div>
+          <div class="skill-card"><span class="skill-icon black-icon"><i class="fa-solid fa-comments"></i></span>Public Relations</div>
+          <div class="skill-card"><span class="skill-icon black-icon"><i class="fa-solid fa-bullhorn"></i></span>Event Promotion</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <ul class="education-list">
+          <li><strong>Bachelor of Strategic Communication</strong> – Universiti Malaysia Sarawak (2022–Present)</li>
+          <li><strong>MUET</strong> Band 4</li>
+          <li><strong>SPM 2021:</strong> 5A</li>
+          <li><strong>IGCSE:</strong> 2A, 2B</li>
+        </ul>
+        <p>My academic journey is focused on bridging the gap between companies and their audiences through effective, creative, and strategic communication.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section rounded-section">
+      <div class="container">
+        <h2>Let's Connect</h2>
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:syedputera@gmail.com" target="_blank">
+            <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+            <span class="contact-label">Email</span>
+            <span class="contact-link">syedputera@gmail.com</span>
+          </a>
+          <a class="contact-card" href="https://instagram.com/syed.putera_" target="_blank">
+            <span class="contact-icon"><i class="fa-brands fa-instagram"></i></span>
+            <span class="contact-label">Instagram</span>
+            <span class="contact-link">@syed.putera_</span>
+          </a>
+          <a class="contact-card" href="https://linkedin.com/in/syedputera" target="_blank">
+            <span class="contact-icon"><i class="fa-brands fa-linkedin"></i></span>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-link">@syed.putera_</span>
+          </a>
+          <a class="contact-card" href="https://x.com/syed.putera_" target="_blank">
+            <span class="contact-icon"><i class="fa-brands fa-x-twitter"></i></span>
+            <span class="contact-label">Twitter (X)</span>
+            <span class="contact-link">@syed.putera_</span>
+          </a>
+          <a class="contact-card" href="https://facebook.com/syed.putera_" target="_blank">
+            <span class="contact-icon"><i class="fa-brands fa-facebook"></i></span>
+            <span class="contact-label">Facebook</span>
+            <span class="contact-link">@syed.putera_</span>
+          </a>
+          <a class="contact-card" href="https://tiktok.com/@syed.putera_" target="_blank">
+            <span class="contact-icon"><i class="fa-brands fa-tiktok"></i></span>
+            <span class="contact-label">TikTok</span>
+            <span class="contact-link">@syed.putera_</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section rounded-section" data-anim="fade-in">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="testimonials-grid modern-testimonials" data-anim-stagger>
+          <div class="testimonial-card modern-tcard">
+            <div class="testimonial-bubble">HJ</div>
+            <blockquote>"Exceptionally performs under pressure , and somehow delivers exceptionally well even at odds".</blockquote>
+            <div class="testimonial-meta">
+              <span class="testimonial-author">Husna Juliani</span>
+              <span class="testimonial-role">Discipline & Protocol Executive</span>
+            </div>
+          </div>
+          <div class="testimonial-card modern-tcard">
+            <div class="testimonial-bubble">FF</div>
+            <blockquote>"He can always translate my vision perfectly. Professional, reliable, and innovative."</blockquote>
+            <div class="testimonial-meta">
+              <span class="testimonial-author">Faiz Farhan</span>
+              <span class="testimonial-role">Programme Director</span>
+            </div>
+          </div>
+          <div class="testimonial-card modern-tcard">
+            <div class="testimonial-bubble">KA</div>
+            <blockquote>"Pressure changes evevrything , some people fold, even breaks , some people locks in. But Syed ,he lives for the thrill of the pressure"</blockquote>
+            <div class="testimonial-meta">
+              <span class="testimonial-author">Khairil Ariffin</span>
+              <span class="testimonial-role">Peer Designer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="site-quote" class="section rounded-section">
+      <div class="container">
+        <div class="quote-box">
+          <q>You don't have to be the best , you just have to better than who you were yesterday</q>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <!-- Removed all rights reserved -->
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
